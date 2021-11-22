@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+   <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <div class="display">
+          <div class="divCalculator">
+            <center><input type="text" name="" value="" id="lable" style=""></center>
+            <table>
+                <tr>
+                    <td> <button type="button" onclick="cleart();clearSound(1)" id="c">C</button></td>
+                    <td><button type="button" onclick="display('%'); clearSound(2)" id="%">%</button></td>
+                    <td><button type="button" onclick="backspace();clearSound(3)" id="bs">B</button></td>
+                    <td><button type="button" onclick="display('/'); clearSound(4)" id="/">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="display(7); clearSound(5)" id="7">7</button></td>
+                    <td><button type="button" onclick="display(8);clearSound(6)" id="8">8</button></td>
+                    <td><button type="button" onclick="display(9);clearSound(7)" id="9">9</button></td>
+                    <td><button type="button" onclick="display('*');clearSound(8)" id="*">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="display('4'); clearSound(9)" id="4">4</button></td>
+                    <td><button type="button" onclick="display(5); clearSound(10)" id="5">5</button></td>
+                    <td><button type="button" onclick="display(6); clearSound(11)" id="6">6</button></td>
+                    <td><button type="button" onclick="display('+'); clearSound(12)" id="+">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="display(1); clearSound(13)" id="1">1</button></td>
+                    <td><button type="button" onclick="display(2); clearSound(14)" id="2">2</button></td>
+                    <td><button type="button" onclick="display(3); clearSound(15)" id="3">3</button></td>
+                    <td><button type="button" onclick="display('-'); clearSound(16)" id="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="display('')" id="%" style=""></button></td>
+                    <td><button type="button" onclick="display(0); clearSound(17)" id="0">0</button></td>
+                    <td><button type="button" onclick="display('.'); clearSound(18)" id=".">.</button></td>
+                    <td><button type="button" onclick="operations(); clearSound(19); Equals()" id="op">=</button> </td>
+                </tr>
+            </table>
+         </div>
+        <div class="title">
+            <strong>I can make Sound</strong>
+        </div> 
+        <div class="credits"><p1>Made with ❤️ by mahesh</p1></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

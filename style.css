@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.display {
+  background-color: #3385ff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.display button {
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  color: black;
+  background-color: #ccc;
+  outline: 0;
+  border-width: 0;
+  font-size: 20px;
+}
+.divCalculator {
+  background-color: #ccc;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.divParent {
+  width: 100%;
+  height: fit-content;
+}
+#lable {
+  margin-left: 0px;
+  margin-bottom: 7px;
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  border: none;
+  font-size: 30px;
+  margin-top: 20px;
+  outline: 0;
+}
+.title {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.credits {
+  font-size: 25px;
+  font-family: monospace;
+  background-color: #3385ff;
+  text-align: right;
+  padding: 31px;
+  margin-top: 30%;
+}
